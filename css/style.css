@@ -21,10 +21,11 @@ aside.functions ul {
 aside.functions li button {
   display: block;
   min-width: 150px;
-  background-color: #F9F9F9;
+  background-color: #E5F0F0;
   border-color: #B1C7C7;
   border-width: 2px;
   border-radius: 5px;
+  box-shadow: 0 2px 3px #687B7E;
 }
 
 
@@ -36,11 +37,12 @@ ul.navigation {
 
 ul.navigation li button {
   float: left;
-  background-color: #F9F9F9;
+  background-color: #E5F0F0;
   border-color: #B1C7C7;
   border-radius: 5px;
   border-width: 2px;
   min-width: 150px;
+  box-shadow: 0 2px 3px #687B7E;
 }
 
 
@@ -60,6 +62,8 @@ aside.history ul {
 aside.history li {
   border: 1px outset #B1C7C7;
   background-color: #F9F9F9;
+  border-radius: 5px;
+  box-shadow: 0 2px 3px #687B7E;
   height: 100px;
   width: 100px;
   display: flex;
@@ -97,6 +101,7 @@ section.cards {
   overflow: auto;
   max-height: 550px;
   margin-right: 140px;
+  margin-left: 140px;
 }
 
 section.cards ul {
@@ -113,6 +118,8 @@ section.cards pre {
 
 section.cards li {
   border: 1px outset #B1C7C7;
+  border-radius: 10px;
+  box-shadow: 0 2px 3px #687B7E;
   background-color: #F9F9F9;
   max-width: 500px;
 }
