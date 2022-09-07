@@ -1,0 +1,66 @@
+aside.functions {
+  float: left;
+  width: 150px;
+  height: 100px;
+}
+
+aside.functions ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+aside.functions li {
+  border: 3px outset black;
+}
+
+
+ul.navigation {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+ul.navigation li {
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+  border: 3px outset black;
+}
+
+
+aside.history {
+  float: right;
+}
+
+aside.history ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+aside.history li {
+  border: 3px outset black;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+}
+
+
+main {
+  overflow: auto;
+  max-width: 800px;
+  margin: auto;
+}
+
+header {
+  overflow: auto;
+  max-width: 800px;
+  margin: auto;
+}
+
+footer {
+  overflow: auto;
+  max-width: 800px;
+  margin: auto;
+}
