@@ -2,12 +2,22 @@ header {
   min-width: 400px;
   margin-bottom: 40px;
   display: flex;
-  margin-left: 5%;
   flex-direction: column;
   justify-content: left;
+  padding-bottom: 5px;
+  background-color: #f6f7f8;
+  border-bottom: black solid;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-shadow: 0 2px 10px 10px #c7c9cc;
 }
 
-header img {
+header div {
+  margin-left: 5%;
+}
+
+header div img {
   margin: 0;
   padding: 0;
   display: flex;
@@ -16,7 +26,7 @@ header img {
   max-width: 120px;
 }
 
-header ul.navigation {
+header div ul.navigation {
   margin: 0;
   padding: 0;
   flex-wrap: wrap;
@@ -26,11 +36,11 @@ header ul.navigation {
   flex-direction: row;
 }
 
-header ul.navigation li button {
+header div ul.navigation li button {
   background-color: #F9F9F9;
   border-color: #000000;
   border-radius: 5px;
   border-width: 2px;
-  min-width: 200px;
+  min-width: 220px;
   box-shadow: 0 2px 3px #101010;
 }

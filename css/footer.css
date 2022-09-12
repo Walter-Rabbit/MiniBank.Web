@@ -1,8 +1,10 @@
 footer {
   margin-top: 50px;
   min-width: 400px;
+  height: 100%;
   width: available;
-  box-shadow: 0 -2px 20px 20px #c7c9cc;
+  box-shadow: 0 -2px 10px 5px #c7c9cc;
+  border-top: black solid;
   background-color: #c7c9cc;
 }
 
