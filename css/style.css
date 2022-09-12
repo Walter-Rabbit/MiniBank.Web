@@ -41,67 +41,46 @@ ul.navigation li button {
   border-color: #B1C7C7;
   border-radius: 5px;
   border-width: 2px;
-  min-width: 150px;
+  min-width: 200px;
   box-shadow: 0 2px 3px #687B7E;
 }
 
 
-aside.history {
-  float: right;
+section.history {
   overflow: auto;
+  display: inline-block;
   max-height: 550px;
-  margin-right: 5px;
+  margin-left: 50px;
 }
 
-aside.history ul {
+section.history ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
 }
 
-aside.history li {
+div.center {
+  display: flex;
+  flex-direction: row;
+  margin-left: 200px;
+}
+
+section.history li {
   border: 1px outset #B1C7C7;
   background-color: #F9F9F9;
   border-radius: 5px;
   box-shadow: 0 2px 3px #687B7E;
   height: 100px;
-  width: 100px;
+  width: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-
-main {
-  overflow: auto;
-  max-width: 800px;
-  min-width: 400px;
-  margin: auto;
-  background-color: #DDF9F9;
-  padding-bottom: 5px;
-  border-bottom: 1px #687B7E solid;
-}
-
-header {
-  overflow: auto;
-  max-width: 800px;
-  margin: auto;
-  background-color: #DDF9F9;
-  border-bottom: 1px #687B7E solid;
-}
-
-footer {
-  overflow: auto;
-  max-width: 800px;
-  margin: auto;
-  background-color: #DDF9F9;
-}
-
 section.cards {
   overflow: auto;
+  display: flex;
   max-height: 550px;
-  margin-right: 140px;
-  margin-left: 140px;
 }
 
 section.cards ul {
@@ -112,8 +91,7 @@ section.cards ul {
 }
 
 section.cards pre {
-  padding-left: 180px;
-  padding-right: 5px;
+  padding-left: 300px;
 }
 
 section.cards li {
@@ -121,7 +99,7 @@ section.cards li {
   border-radius: 10px;
   box-shadow: 0 2px 3px #687B7E;
   background-color: #F9F9F9;
-  max-width: 500px;
+  width: 600px;
 }
 
 div.money {
@@ -133,9 +111,35 @@ div.money {
 }
 
 body {
-  background-color: #687B7E;
+  background-color: #dfefef;
+  width: available;
+  margin: 0;
+}
+
+body main {
+  padding-left: 200px;
+  min-width: 400px;
+  width: available;
+  margin: auto;
+}
+
+body header {
+  padding-left: 200px;
+  min-width: 400px;
+  width: available;
+  margin: auto;
+}
+
+body footer {
+  margin-top: 50px;
+  padding-left: 200px;
+  min-width: 400px;
+  width: available;
+  background-color: #727280;
+  box-shadow: 0 0 100px #687B7E;
 }
 
 q {
   margin-left: 5px;
 }
+
