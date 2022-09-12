@@ -1,0 +1,105 @@
+main {
+  min-width: 400px;
+  margin-left: 5%;
+  display: flex;
+  justify-content: left;
+  flex-direction: row;
+}
+
+main div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+
+
+aside.functions {
+  width: 150px;
+}
+
+aside.functions ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+aside.functions li button {
+  min-width: 150px;
+  background-color: #F9F9F9;
+  border-color: #000000;
+  border-width: 2px;
+  border-radius: 5px;
+  box-shadow: 0 2px 3px #101010;
+}
+
+
+
+div.center {
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+}
+
+section.cards {
+  overflow: auto;
+  display: flex;
+  max-height: 550px;
+}
+
+section.cards ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  float: right;
+}
+
+section.cards li {
+  border: 1px outset #000000;
+  border-radius: 10px;
+  box-shadow: 0 2px 3px #101010;
+  background-color: #F9F9F9;
+  width: 600px;
+}
+
+div.money {
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 50px;
+}
+
+section.cards pre {
+  padding-left: 250px;
+}
+
+
+
+section.history {
+  overflow: auto;
+  display: inline-block;
+  max-height: 550px;
+  margin-left: 50px;
+}
+
+section.history ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+section.history li {
+  border: 1px outset #000000;
+  background-color: #F9F9F9;
+  border-radius: 5px;
+  box-shadow: 0 2px 3px #101010;
+  height: 100px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

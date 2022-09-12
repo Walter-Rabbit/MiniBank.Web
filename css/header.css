@@ -1,0 +1,36 @@
+header {
+  min-width: 400px;
+  margin-bottom: 40px;
+  display: flex;
+  margin-left: 5%;
+  flex-direction: column;
+  justify-content: left;
+}
+
+header img {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: left;
+  max-height: 120px;
+  max-width: 120px;
+}
+
+header ul.navigation {
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+  list-style-type:none;
+  display: flex;
+  justify-content: left;
+  flex-direction: row;
+}
+
+header ul.navigation li button {
+  background-color: #F9F9F9;
+  border-color: #000000;
+  border-radius: 5px;
+  border-width: 2px;
+  min-width: 200px;
+  box-shadow: 0 2px 3px #101010;
+}

@@ -1,0 +1,18 @@
+footer {
+  margin-top: 50px;
+  min-width: 400px;
+  width: available;
+  box-shadow: 0 -2px 20px 20px #c7c9cc;
+  background-color: #c7c9cc;
+}
+
+footer div {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  margin-left: 5%;
+}
+
+footer q {
+  margin-left: 5px;
+}
