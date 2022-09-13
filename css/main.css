@@ -91,9 +91,9 @@ div.money {
 section.cards img {
   display: flex;
   justify-content: right;
-  margin: 10px 10px 10px 120px;
-  height: 100px;
-  width: 230px;
+  margin: 5px 5px 10px 100px;
+  height: 110px;
+  width: 240px;
 }
 
 section.cards pre {
