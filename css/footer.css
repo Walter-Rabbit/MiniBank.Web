@@ -1,20 +1,32 @@
 footer {
   margin-top: 50px;
-  min-width: 400px;
   height: 100%;
   width: available;
-  box-shadow: 0 -2px 10px 5px #c7c9cc;
+  box-shadow: 0 -2px 10px 5px #80b3ff;
   border-top: black solid;
-  background-color: #c7c9cc;
+  display: flex;
+  justify-content: center;
+  background-color: #80b3ff;
+  flex-direction: column;
 }
 
 footer div {
   display: flex;
+  margin-left: 15%;
   flex-direction: column;
-  justify-content: left;
-  margin-left: 5%;
+}
+
+footer h2 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+footer ul {
+  margin-top: 0;
+  margin-bottom: 2px;
 }
 
 footer q {
-  margin-left: 5px;
+  font-style: italic;
+  margin-bottom: 20px;
 }
