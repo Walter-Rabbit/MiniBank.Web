@@ -7,7 +7,7 @@ header {
   top: 0;
   width: 100%;
   box-shadow: 0 2px 20px 1px #000000;
-  background-color: #66a3ff;
+  background-color: #99c2ff;
   max-height: 400px;
 }
 
@@ -34,7 +34,7 @@ ul.navigation {
 }
 
 ul.navigation li button {
-  background-color: #e6f0ff;
+  background-color: #F8F9FA;
   border-color: #000000;
   border-radius: 5px;
   border-width: 2px;

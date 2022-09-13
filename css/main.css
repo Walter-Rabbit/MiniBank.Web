@@ -26,7 +26,7 @@ aside.functions ul {
 
 aside.functions li button {
   min-width: 250px;
-  background-color: #e6f0ff;
+  background-color: #F8F9FA;
   border-color: #000000;
   border-width: 2px;
   border-radius: 5px;
@@ -57,11 +57,11 @@ section.cards ul {
 
 section.cards ul::-webkit-scrollbar {
   width: 7px;
-  background-color: #99c2ff;
+  background-color: #E9F2ff;
 }
 
 section.cards ul::-webkit-scrollbar-thumb {
-  background-color: #005ce6;
+  background-color: #99c2ff;
   border-radius: 5px;
   border: 2px black solid;
 }
@@ -70,7 +70,7 @@ section.cards li article {
   border: 1px outset #000000;
   border-radius: 10px;
   box-shadow: 0 2px 1px #101010;
-  background-color: #e6f0ff;
+  background-color: #F8F9FA;
   width: 600px;
   height: 120px;
   margin-bottom: 5px;
@@ -130,7 +130,7 @@ section.history li {
   margin-top: 0;
   margin-bottom: 5px;
   border: 1px outset #000000;
-  background-color: #e6f0ff;
+  background-color: #F8F9FA;
   border-radius: 5px;
   box-shadow: 0 2px 1px #101010;
   height: 100px;
@@ -163,11 +163,11 @@ p.date {
 
 section.history ul::-webkit-scrollbar {
   width: 7px;
-  background-color: #99c2ff;
+  background-color: #E9F2ff;
 }
 
 section.history ul::-webkit-scrollbar-thumb {
-  background-color: #005ce6;
+  background-color: #99c2ff;
   border-radius: 5px;
   border: 2px black solid;
 }
