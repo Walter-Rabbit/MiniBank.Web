@@ -57,11 +57,11 @@ section.cards ul {
 
 section.cards ul::-webkit-scrollbar {
   width: 7px;
-  background-color: #E9F2ff;
+  background-color: #ffffff;
 }
 
 section.cards ul::-webkit-scrollbar-thumb {
-  background-color: #99c2ff;
+  background-color: #ffb300;
   border-radius: 5px;
   border: 2px black solid;
 }
@@ -163,11 +163,11 @@ p.date {
 
 section.history ul::-webkit-scrollbar {
   width: 7px;
-  background-color: #E9F2ff;
+  background-color: #ffffff;
 }
 
 section.history ul::-webkit-scrollbar-thumb {
-  background-color: #99c2ff;
+  background-color: #ffb300;
   border-radius: 5px;
   border: 2px black solid;
 }
