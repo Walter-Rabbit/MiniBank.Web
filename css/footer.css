@@ -10,10 +10,20 @@ footer {
   flex-direction: row;
 }
 
-footer div {
-  display: flex;
-  width: 900px;
-  flex-direction: column;
+@media (min-width: 1500px) {
+  footer div {
+    display: flex;
+    width: 1200px;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 1500px) {
+  footer div {
+    display: flex;
+    width: 600px;
+    flex-direction: column;
+  }
 }
 
 footer h2 {
