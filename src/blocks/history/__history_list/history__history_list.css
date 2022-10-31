@@ -1,0 +1,17 @@
+ul.history__history_list {
+  list-style-type: none;
+  overflow-y: scroll;
+  margin: 0;
+  padding: 0;
+}
+
+ul.history__history_list::-webkit-scrollbar {
+  width: 7px;
+  background-color: #ffffff;
+}
+
+ul.history__history_list::-webkit-scrollbar-thumb {
+  background-color: #ffb300;
+  border-radius: 5px;
+  border: 2px black solid;
+}

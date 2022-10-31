@@ -1,0 +1,8 @@
+div.card__money {
+  margin-top: 10px;
+  display: flex;
+  justify-content: left;
+  font-size: 30px;
+  font-weight: bold;
+  min-width: 200px;
+}

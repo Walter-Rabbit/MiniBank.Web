@@ -1,0 +1,17 @@
+ul.cards__cards_list {
+  overflow-y: scroll;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+ul.cards__cards_list::-webkit-scrollbar {
+  width: 7px;
+  background-color: #ffffff;
+}
+
+ul.cards__cards_list::-webkit-scrollbar-thumb {
+  background-color: #ffb300;
+  border-radius: 5px;
+  border: 2px black solid;
+}

@@ -1,0 +1,9 @@
+button.function_list__button {
+  min-width: 250px;
+  background-color: #F8F9FA;
+  border-color: #000000;
+  border-width: 2px;
+  border-radius: 5px;
+  box-shadow: 0 2px 6px 1px #101010;
+  font-weight: bold;
+}

@@ -1,0 +1,14 @@
+button.navigation_list__button {
+  background-color: #ffffff;
+  margin: 1px;
+  border-bottom: #ffb300 solid;
+  box-shadow: 0 1px #101010;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 5px;
+  min-width: 210px;
+  display: inline-block;
+  vertical-align: bottom;
+  font-weight: bold;
+}
