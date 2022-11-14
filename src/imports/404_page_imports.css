@@ -3,6 +3,9 @@
 @import "../blocks/navigation_list/_width/navigation_width_to600.css";
 @import "../blocks/navigation_list/_width/navigation_width_from600to1200.css";
 @import "../blocks/navigation_list/_width/navigation_width_from1200.css";
+@import "../blocks/navigation_list/_width/navigation_width_to600.css";
+@import "../blocks/navigation_list/_width/navigation_width_from600to1200.css";
+@import "../blocks/navigation_list/_width/navigation_width_from1200.css";
 @import "../blocks/navigation_list/__button/navigation_list__button.css";
 @import "../blocks/body/body.css";
 @import "../blocks/header/__logo/header__logo.css";

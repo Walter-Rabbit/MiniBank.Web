@@ -8,7 +8,6 @@ header.header {
   width: 100%;
   box-shadow: 0 2px 20px 1px #000000;
   background-color: #ffffff;
-  max-height: 400px;
   display: flex;
   justify-content: center;
   flex-direction: row;

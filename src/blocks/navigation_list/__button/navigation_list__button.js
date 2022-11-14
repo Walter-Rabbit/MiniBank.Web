@@ -1,4 +1,4 @@
-window.onload = function navigation_list__button() {
+window.addEventListener("load", function navigation_list__button() {
   let address = document.URL.split("/");
   let page = address[address.length - 1];
 
@@ -7,4 +7,4 @@ window.onload = function navigation_list__button() {
   if (element != null) {
     element.style.background = "#ffb300"
   }
-}
+});
