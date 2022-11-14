@@ -2,4 +2,7 @@ body.body {
   background-color: #ffffff;
   width: available;
   margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
