@@ -6,4 +6,10 @@ button.function_list__button {
   border-radius: 5px;
   box-shadow: 0 2px 6px 1px #101010;
   font-weight: bold;
+  transition: all 500ms ease;
+  cursor: pointer;
+}
+
+button.function_list__button:hover {
+  background-color: #D5D5D5;
 }
