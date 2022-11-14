@@ -1,8 +1,8 @@
 @import "../blocks/header/header.css";
 @import "../blocks/navigation_list/navigation.css";
-@import "../blocks/navigation_list/q_width/navigation_width_to600.css";
-@import "../blocks/navigation_list/q_width/navigation_width_from600to1200.css";
-@import "../blocks/navigation_list/q_width/navigation_width_from1200.css";
+@import "../blocks/navigation_list/_width/navigation_width_to600.css";
+@import "../blocks/navigation_list/_width/navigation_width_from600to1200.css";
+@import "../blocks/navigation_list/_width/navigation_width_from1200.css";
 @import "../blocks/navigation_list/__button/navigation_list__button.css";
 @import "../blocks/navigation_list/__button/navigation_list__button.js";
 @import "../blocks/body/body.css";
