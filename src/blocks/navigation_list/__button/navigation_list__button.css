@@ -14,7 +14,7 @@ button.navigation_list__button {
   vertical-align: bottom;
   font-weight: bold;
   height: 22px;
-  transition: all 500ms ease;
+  transition: all 150ms ease;
   cursor: pointer;
 }
 
