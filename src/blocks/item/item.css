@@ -3,7 +3,6 @@ div.item {
   border-radius: 2px;
   background-color: #ffffff;
   display: grid;
-  grid-template-columns: auto auto;
   grid-template-rows: 50px 50px;
   transition: all 150ms ease;
 }
