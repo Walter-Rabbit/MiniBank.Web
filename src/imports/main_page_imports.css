@@ -27,6 +27,9 @@
 @import "../blocks/card/__money/card__money.css";
 @import "../blocks/card/__money/_width/card__money_width_from600.css";
 @import "../blocks/card/__money/_width/card__money_width_to600.css";
+@import "../blocks/card/__type/card__type.css";
+@import "../blocks/card/__type/_width/card__type_width_from600.css";
+@import "../blocks/card/__type/_width/card__type_width_to600.css";
 @import "../blocks/card/__img/card__img.css";
 @import "../blocks/card/__img/_width/card__img_width_from600.css";
 @import "../blocks/card/__img/_width/card__img_width_to600.css";

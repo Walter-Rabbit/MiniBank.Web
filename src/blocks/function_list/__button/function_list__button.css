@@ -8,6 +8,8 @@ button.function_list__button {
   font-weight: bold;
   transition: all 150ms ease;
   cursor: pointer;
+  font-family: Verdana;
+  font-size: 13px;
 }
 
 button.function_list__button:hover {

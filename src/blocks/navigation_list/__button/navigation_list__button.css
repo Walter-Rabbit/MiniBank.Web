@@ -16,6 +16,7 @@ button.navigation_list__button {
   height: 22px;
   transition: all 150ms ease;
   cursor: pointer;
+  font-family: Verdana;
 }
 
 button.navigation_list__button:hover {
