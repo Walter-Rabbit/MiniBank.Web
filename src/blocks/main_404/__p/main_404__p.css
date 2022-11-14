@@ -2,5 +2,6 @@ p.main_404__p {
   display: flex;
   align-items: center;
   font-weight: bold;
-  font-size: 60px;
+  font-size: 45px;
+  font-family: Verdana;
 }

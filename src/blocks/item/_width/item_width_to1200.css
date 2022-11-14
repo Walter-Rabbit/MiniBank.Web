@@ -1,5 +1,5 @@
 @media (max-width: 1200px) {
-  div.account {
+  div.item {
     min-width: 450px;
     height: 140px;
     grid-template-columns: 150px auto;
