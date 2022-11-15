@@ -5,153 +5,132 @@
   <meta charset="utf-8">
   <title>MiniBank</title>
   <meta name="description" content="Самый лучший в мире банк для самый лучших в мире людей.">
-<!--  <link href="css/outlines.css" rel="stylesheet">-->
-  <link href="css/main.css" rel="stylesheet">
-  <link href="css/header.css" rel="stylesheet">
-  <link href="css/footer.css" rel="stylesheet">
-  <link href="css/general.css" rel="stylesheet">
+<!--  <link href="src/extra/outlines.css" rel="stylesheet">-->
+  <link href="src/imports/main_page_imports.css" rel="stylesheet">
+  <script type="text/javascript" src="src/imports/common_imports.js"></script>
 </head>
-
-<body>
-  <header>
-    <nav>
-      <div>
-        <img src="img/logo.png" alt="">
-      </div>
-      <ul class="navigation">
-        <li><button>Счета</button></li>
-        <li><button>Кредиты</button></li>
-        <li><button>Вклады</button></li>
-        <li><button>Поиск</button></li>
-        <li><button>Прочее</button></li>
-      </ul>
-    </nav>
+<body class="body">
+  <header class="header">
+    <a href="index.html"><img class="header__logo" src="img/logo.png" alt=""></a>
+    <ul class="navigation">
+      <li><button id='accounts' class="navigation_list__button" onclick="location.href='pages/accounts.html'">Счета</button></li>
+      <li><button id='credits' class="navigation_list__button" onclick="location.href='pages/credits.html'">Кредиты</button></li>
+      <li><button id='deposits' class="navigation_list__button" onclick="location.href='pages/deposits.html'">Вклады</button></li>
+      <li><button id='transactions' class="navigation_list__button" onclick="location.href='pages/transactions.html'">Переводы</button></li>
+      <li><button id='profiles' class="navigation_list__button" onclick="location.href='pages/profiles.html'">Профили</button></li>
+    </ul>
   </header>
-  <main>
-    <aside class="functions">
-      <ul>
-        <li><button>Сделать перевод</button></li>
-        <li><button>Запросить перевод</button></li>
-        <li><button>Перевод между своими картами</button></li>
+  <main class="main_page">
+    <ul class="function_list">
+      <li><button class="function_list__button">Сделать перевод</button></li>
+      <li><button class="function_list__button">Запросить перевод</button></li>
+      <li><button class="function_list__button">Перевод между своими картами</button></li>
+    </ul>
+    <section class="cards">
+      <h2 class="cards__title">Активные карты</h2>
+      <ul class="cards__cards_list">
+        <li><div class="card">
+          <div class="card__money">9999.99 руб</div>
+          <img class="card__img" src="img/place_holder_card.png" alt="">
+          <div class="card__type">Счет</div>
+          </div></li>
+        <li><div class="card">
+          <div class="card__money">1234.99 руб</div>
+          <img class="card__img" src="img/place_holder_card.png" alt="">
+          <div class="card__type">Вклад</div>
+        </div></li>
+        <li><div class="card">
+          <div class="card__money">999.99 руб</div>
+          <img class="card__img" src="img/place_holder_card.png" alt="">
+          <div class="card__type">Кредит</div>
+        </div></li>
+        <li><div class="card">
+          <div class="card__money">9999.99 руб</div>
+          <img class="card__img" src="img/place_holder_card.png" alt="">
+          <div class="card__type">Счет</div>
+        </div></li>
+        <li><div class="card">
+          <div class="card__money">2999.99 руб</div>
+          <img class="card__img" src="img/place_holder_card.png" alt="">
+          <div class="card__type">Кредит</div>
+        </div></li>
+        <li><div class="card">
+          <div class="card__money">8299.99 руб</div>
+          <img class="card__img" src="img/place_holder_card.png" alt="">
+          <div class="card__type">Счет</div>
+        </div></li>
+        <li><div class="card">
+          <div class="card__money">8299.99 руб</div>
+          <img class="card__img" src="img/place_holder_card.png" alt="">
+          <div class="card__type">Вклад</div>
+        </div></li>
+        <li><div class="card">
+          <div class="card__money">8299.99 руб</div>
+          <img class="card__img" src="img/place_holder_card.png" alt="">
+          <div class="card__type">Счет</div>
+        </div></li>
       </ul>
-    </aside>
-      <section class="cards">
-        <h2>Активные карты:</h2>
-        <ul>
-          <li><article>
-            <div class="money">
-            9999.99 руб
-            </div>
-            <img src="img/place_holder_card.png" alt="">
-          </article></li>
-          <li><article>
-            <div class="money">
-              1234.99 руб
-            </div>
-            <img src="img/place_holder_card.png" alt="">
-          </article></li>
-          <li><article>
-            <div class="money">
-              999.99 руб
-            </div>
-            <img src="img/place_holder_card.png" alt="">
-          </article></li>
-          <li><article>
-            <div class="money">
-              9999.99 руб
-            </div>
-            <img src="img/place_holder_card.png" alt="">
-          </article></li>
-          <li><article>
-          <div class="money">
-            2999.99 руб
-          </div>
-            <img src="img/place_holder_card.png" alt="">
-          </article></li>
-          <li><article>
-            <div class="money">
-              8299.99 руб
-            </div>
-            <img src="img/place_holder_card.png" alt="">
-          </article></li>
-          <li><article>
-            <div class="money">
-              8299.99 руб
-            </div>
-            <img src="img/place_holder_card.png" alt="">
-          </article></li>
-          <li><article>
-            <div class="money">
-              8299.99 руб
-            </div>
-            <img src="img/place_holder_card.png" alt="">
-          </article></li>
-        </ul>
-      </section>
-      <section class="history">
-        <h2>История:</h2>
-        <ul>
-          <li>
-            <p class="negative">-1800</p>
-            <p class="date"> 18.02.2021</p>
-          </li>
-          <li>
-            <p class="negative">-5000</p>
-            <p class="date"> 18.02.2021</p>
-          </li>
-          <li>
-            <p class="positive">+1032</p>
-            <p class="date"> 18.02.2021</p>
-          </li>
-          <li>
-            <p class="positive">+154</p>
-            <p class="date"> 18.02.2021</p>
-          </li>
-          <li>
-            <p class="negative">+1032</p>
-            <p class="date"> 18.02.2021</p>
-          </li>
-          <li>
-            <p class="positive">+1032</p>
-            <p class="date"> 18.02.2021</p>
-          </li>
-          <li>
-            <p class="negative">-5431</p>
-            <p class="date"> 18.02.2021</p>
-          </li>
-          <li>
-            <p class="positive">+12</p>
-            <p class="date"> 18.02.2021</p>
-          </li>
-          <li>
-            <p class="positive">+1032</p>
-            <p class="date"> 18.02.2021</p>
-          </li>
-          <li>
-            <p class="positive">+102</p>
-            <p class="date"> 18.02.2021</p>
-          </li>
-          <li>
-            <p class="negative">-1342</p>
-            <p class="date"> 18.02.2021</p>
-          </li>
-        </ul>
-      </section>
+    </section>
+    <section class="history">
+      <h2 class="history__title">История</h2>
+      <ul class="history__history_list">
+        <li><div class="transaction">
+          <p class="transaction__negative_balance">-1800</p>
+          <p class="transaction__date"> 14.11.2021</p>
+        </div></li>
+        <li><div class="transaction">
+          <p class="transaction__negative_balance">-5000</p>
+          <p class="transaction__date"> 13.11.2021</p>
+        </div></li>
+        <li><div class="transaction">
+          <p class="transaction__positive_balance">+1032</p>
+          <p class="transaction__date"> 12.11.2021</p>
+        </div></li>
+        <li><div class="transaction">
+          <p class="transaction__positive_balance">+154</p>
+          <p class="transaction__date"> 12.11.2021</p>
+        </div></li>
+        <li><div class="transaction">
+          <p class="transaction__positive_balance">+1032</p>
+          <p class="transaction__date"> 10.11.2021</p>
+        </div></li>
+        <li><div class="transaction">
+          <p class="transaction__positive_balance">+1032</p>
+          <p class="transaction__date"> 09.11.2021</p>
+        </div></li>
+        <li><div class="transaction">
+          <p class="transaction__negative_balance">-5431</p>
+          <p class="transaction__date"> 01.11.2021</p>
+        </div></li>
+        <li><div class="transaction">
+          <p class="transaction__positive_balance">+12</p>
+          <p class="transaction__date"> 27.10.2021</p>
+        </div></li>
+        <li><div class="transaction">
+          <p class="transaction__positive_balance">+1032</p>
+          <p class="transaction__date"> 27.10.2021</p>
+        </div></li>
+        <li><div class="transaction">
+          <p class="transaction__positive_balance">+102</p>
+          <p class="transaction__date"> 21.10.2021</p>
+        </div></li>
+        <li><div class="transaction">
+          <p class="transaction__negative_balance">-1342</p>
+          <p class="transaction__date"> 20.10.2021</p>
+        </div></li>
+      </ul>
+    </section>
   </main>
-  <footer>
-    <div>
-      <h2>
-        Правовая информация
-      </h2>
-      <ul>
+  <footer class="footer">
+    <div class="rights">
+      <h2 class="rights__title">Правовая информация</h2>
+      <ul class="rights__info">
         <li>Супер мега банк</li>
         <li>Контактная информация</li>
         <li>Бла бла бла</li>
         <li>Все права защищены</li>
       </ul>
-      <q>
-        Sic parvis magna
-      </q>
+      <p class="footer__loading_time">Время загрузки: <span id="loading_time"></span>ms. </p>
     </div>
   </footer>
 </body>
