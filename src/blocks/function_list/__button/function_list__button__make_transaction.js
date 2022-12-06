@@ -29,4 +29,7 @@ function function_list__button__make_transaction() {
   ul.appendChild(li);
 
   window.localStorage.setItem('history', ul.innerHTML);
+
+  let section = document.getElementsByClassName('history');
+  section[0].style.visibility = 'visible';
 }

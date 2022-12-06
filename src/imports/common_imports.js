@@ -16,7 +16,7 @@ window.addEventListener('load', function catalog__item_list__transactions() {
 
     let p2 = document.createElement('p');
     p2.className = 'item__description';
-    p2.textContent = 'Какие-то умное описание.';
+    p2.textContent = 'Какое-то умное описание.';
 
     let p3 = document.createElement('p');
     p3.className = 'item__date'
@@ -38,7 +38,7 @@ function check_speed() {
 
 window.addEventListener("load", function footer__loading_time() {
   let now = Date.now();
-  if ( sessionStorage.now ) {
+  if (sessionStorage.now) {
     let loaded_in = now - parseInt(sessionStorage.now);
     document.getElementById("loading_time").innerHTML = loaded_in.toString();
   }
@@ -76,6 +76,9 @@ function function_list__button__ask_transaction() {
   ul.appendChild(li);
 
   window.localStorage.setItem('history', ul.innerHTML);
+
+  let section = document.getElementsByClassName('history');
+  section[0].style.visibility = 'visible';
 }
 
 function function_list__button__make_transaction() {
@@ -109,11 +112,24 @@ function function_list__button__make_transaction() {
   ul.appendChild(li);
 
   window.localStorage.setItem('history', ul.innerHTML);
+
+  let section = document.getElementsByClassName('history');
+  section[0].style.visibility = 'visible';
 }
 
 window.addEventListener('load', function history__history_list() {
   let ul = document.getElementsByClassName('history__history_list')[0];
-  ul.innerHTML = window.localStorage.getItem('history');
+  let transactions = window.localStorage.getItem('history');
+  let section = document.getElementsByClassName('history')
+
+  if (section !== null) {
+    if (transactions !== null) {
+      section[0].style.visibility = 'visible';
+      ul.innerHTML = transactions;
+    } else {
+      section[0].style.visibility = 'hidden';
+    }
+  }
 });
 
 window.addEventListener("load", function navigation_list__button() {

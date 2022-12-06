@@ -16,7 +16,7 @@ window.addEventListener('load', function catalog__item_list__transactions() {
 
     let p2 = document.createElement('p');
     p2.className = 'item__description';
-    p2.textContent = 'Какие-то умное описание.';
+    p2.textContent = 'Какое-то умное описание.';
 
     let p3 = document.createElement('p');
     p3.className = 'item__date'
