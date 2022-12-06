@@ -11,11 +11,12 @@ function function_list__button__ask_transaction() {
   let number = Number(window.prompt("Enter RUB request amount: ", "100"));
 
   if (number < 0) {
-    window.prompt("Amount must be positive number");
+    window.alert("Amount must be positive number");
+    return;
   }
 
   p1.className = 'transaction__positive_balance';
-  p1.textContent = number.toString();
+  p1.textContent = number.toString() + 'руб.';
 
   let p2 = document.createElement('p');
   p2.className = 'transaction__date';
