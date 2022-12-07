@@ -10,6 +10,10 @@ function function_list__button__make_transaction() {
 
   let number = Number(window.prompt("Enter RUB transfer amount: ", "100"));
 
+  if (number === 0)  {
+    return;
+  }
+
   if (number < 0) {
     window.alert("Amount must be positive number");
     return;

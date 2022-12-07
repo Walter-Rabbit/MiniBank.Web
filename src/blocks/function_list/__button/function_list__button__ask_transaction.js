@@ -10,6 +10,10 @@ function function_list__button__ask_transaction() {
 
   let number = Number(window.prompt("Enter RUB request amount: ", "100"));
 
+  if (number === 0)  {
+    return;
+  }
+
   if (number < 0) {
     window.alert("Amount must be positive number");
     return;
