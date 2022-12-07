@@ -1,5 +1,5 @@
 function function_list__button__make_transaction() {
-  let ul = document.getElementsByClassName('history__history_list')[0];
+  let ul = document.getElementById('main_page_history');
 
   let li = document.createElement('li');
 
@@ -26,7 +26,7 @@ function function_list__button__make_transaction() {
   div.appendChild(p1);
   div.appendChild(p2);
   li.appendChild(div);
-  ul.appendChild(li);
+  ul.insertBefore(li, ul.firstChild);
 
   window.localStorage.setItem('history', ul.innerHTML);
 

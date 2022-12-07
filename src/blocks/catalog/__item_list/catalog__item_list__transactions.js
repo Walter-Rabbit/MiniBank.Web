@@ -1,5 +1,10 @@
 window.addEventListener('load', function catalog__item_list__transactions() {
-  let ul = document.getElementsByClassName('catalog__item_list')[0];
+  let ul = document.getElementById('transaction_page_history');
+
+  if (ul === null) {
+    return;
+  }
+
   let savedLis = window.localStorage.getItem('history');
 
   let tempUl = document.createElement('ul');

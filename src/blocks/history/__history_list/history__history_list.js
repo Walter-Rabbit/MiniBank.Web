@@ -1,14 +1,19 @@
 window.addEventListener('load', function history__history_list() {
-  let ul = document.getElementsByClassName('history__history_list')[0];
+  let ul = document.getElementById('main_page_history');
+
+  if (ul === null) {
+    return;
+  }
+
   let transactions = window.localStorage.getItem('history');
-  let section = document.getElementsByClassName('history')
+  let section = document.getElementById('main_page_section_history')
 
   if (section !== null) {
     if (transactions !== null) {
-      section[0].style.visibility = 'visible';
+      section.style.visibility = 'visible';
       ul.innerHTML = transactions;
     } else {
-      section[0].style.visibility = 'hidden';
+      section.style.visibility = 'hidden';
     }
   }
 });

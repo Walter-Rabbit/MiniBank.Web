@@ -1,5 +1,10 @@
 window.addEventListener('load', function catalog__item_list__transactions() {
-  let ul = document.getElementsByClassName('catalog__item_list')[0];
+  let ul = document.getElementById('transaction_page_history');
+
+  if (ul === null) {
+    return;
+  }
+
   let savedLis = window.localStorage.getItem('history');
 
   let tempUl = document.createElement('ul');
@@ -38,7 +43,7 @@ function check_speed() {
 
 window.addEventListener("load", function footer__loading_time() {
   let now = Date.now();
-  if (sessionStorage.now) {
+  if ( sessionStorage.now ) {
     let loaded_in = now - parseInt(sessionStorage.now);
     document.getElementById("loading_time").innerHTML = loaded_in.toString();
   }
@@ -46,7 +51,7 @@ window.addEventListener("load", function footer__loading_time() {
 });
 
 function function_list__button__ask_transaction() {
-  let ul = document.getElementsByClassName('history__history_list')[0];
+  let ul = document.getElementById('main_page_history');
 
   let li = document.createElement('li');
 
@@ -73,7 +78,7 @@ function function_list__button__ask_transaction() {
   div.appendChild(p1);
   div.appendChild(p2);
   li.appendChild(div);
-  ul.appendChild(li);
+  ul.insertBefore(li, ul.firstChild);
 
   window.localStorage.setItem('history', ul.innerHTML);
 
@@ -82,7 +87,7 @@ function function_list__button__ask_transaction() {
 }
 
 function function_list__button__make_transaction() {
-  let ul = document.getElementsByClassName('history__history_list')[0];
+  let ul = document.getElementById('main_page_history');
 
   let li = document.createElement('li');
 
@@ -109,7 +114,7 @@ function function_list__button__make_transaction() {
   div.appendChild(p1);
   div.appendChild(p2);
   li.appendChild(div);
-  ul.appendChild(li);
+  ul.insertBefore(li, ul.firstChild);
 
   window.localStorage.setItem('history', ul.innerHTML);
 
@@ -118,16 +123,21 @@ function function_list__button__make_transaction() {
 }
 
 window.addEventListener('load', function history__history_list() {
-  let ul = document.getElementsByClassName('history__history_list')[0];
+  let ul = document.getElementById('main_page_history');
+
+  if (ul === null) {
+    return;
+  }
+
   let transactions = window.localStorage.getItem('history');
-  let section = document.getElementsByClassName('history')
+  let section = document.getElementById('main_page_section_history')
 
   if (section !== null) {
     if (transactions !== null) {
-      section[0].style.visibility = 'visible';
+      section.style.visibility = 'visible';
       ul.innerHTML = transactions;
     } else {
-      section[0].style.visibility = 'hidden';
+      section.style.visibility = 'hidden';
     }
   }
 });
