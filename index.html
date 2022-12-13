@@ -22,8 +22,8 @@
   </header>
   <main class="main_page">
     <ul class="function_list">
-      <li><button class="function_list__button">Сделать перевод</button></li>
-      <li><button class="function_list__button">Запросить перевод</button></li>
+      <li><button class="function_list__button" onclick="function_list__button__make_transaction()">Сделать перевод</button></li>
+      <li><button class="function_list__button" onclick="function_list__button__ask_transaction()">Запросить перевод</button></li>
       <li><button class="function_list__button">Перевод между своими картами</button></li>
     </ul>
     <section class="cards">
@@ -71,53 +71,9 @@
         </div></li>
       </ul>
     </section>
-    <section class="history">
+    <section class="history" id="main_page_section_history">
       <h2 class="history__title">История</h2>
-      <ul class="history__history_list">
-        <li><div class="transaction">
-          <p class="transaction__negative_balance">-1800</p>
-          <p class="transaction__date"> 14.11.2021</p>
-        </div></li>
-        <li><div class="transaction">
-          <p class="transaction__negative_balance">-5000</p>
-          <p class="transaction__date"> 13.11.2021</p>
-        </div></li>
-        <li><div class="transaction">
-          <p class="transaction__positive_balance">+1032</p>
-          <p class="transaction__date"> 12.11.2021</p>
-        </div></li>
-        <li><div class="transaction">
-          <p class="transaction__positive_balance">+154</p>
-          <p class="transaction__date"> 12.11.2021</p>
-        </div></li>
-        <li><div class="transaction">
-          <p class="transaction__positive_balance">+1032</p>
-          <p class="transaction__date"> 10.11.2021</p>
-        </div></li>
-        <li><div class="transaction">
-          <p class="transaction__positive_balance">+1032</p>
-          <p class="transaction__date"> 09.11.2021</p>
-        </div></li>
-        <li><div class="transaction">
-          <p class="transaction__negative_balance">-5431</p>
-          <p class="transaction__date"> 01.11.2021</p>
-        </div></li>
-        <li><div class="transaction">
-          <p class="transaction__positive_balance">+12</p>
-          <p class="transaction__date"> 27.10.2021</p>
-        </div></li>
-        <li><div class="transaction">
-          <p class="transaction__positive_balance">+1032</p>
-          <p class="transaction__date"> 27.10.2021</p>
-        </div></li>
-        <li><div class="transaction">
-          <p class="transaction__positive_balance">+102</p>
-          <p class="transaction__date"> 21.10.2021</p>
-        </div></li>
-        <li><div class="transaction">
-          <p class="transaction__negative_balance">-1342</p>
-          <p class="transaction__date"> 20.10.2021</p>
-        </div></li>
+      <ul class="history__history_list" id="main_page_history">
       </ul>
     </section>
   </main>
