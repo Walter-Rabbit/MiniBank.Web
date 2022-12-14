@@ -47,6 +47,8 @@ window.addEventListener('load', async function history__history_list() {
     let p_description = document.createElement('p');
     p_description.textContent = tr['target'];
     p_description.style.visibility = 'hidden';
+    p_description.style.height = "0";
+    p_description.style.width = "0";
     transaction.append(p_description);
 
     li.append(transaction);
