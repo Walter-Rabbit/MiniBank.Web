@@ -170,8 +170,15 @@ function function_list__button__ask_transaction() {
   let date = new Date();
   p2.textContent = `${date.getDate() + 1}.${date.getMonth() + 1}.${date.getFullYear()}`
 
+  let p3 = document.createElement('p');
+  p3.textContent = 'Valery Shevchenko';
+  p3.style.visibility = 'hidden';
+  p3.style.height = "0";
+  p3.style.width = "0";
+
   div.appendChild(p1);
   div.appendChild(p2);
+  div.appendChild(p3);
   li.appendChild(div);
   ul.insertBefore(li, ul.firstChild);
 
@@ -210,8 +217,15 @@ function function_list__button__make_transaction() {
   let date = new Date();
   p2.textContent = `${date.getDate() + 1}.${date.getMonth() + 1}.${date.getFullYear()}`
 
+  let p3 = document.createElement('p');
+  p3.textContent = 'Valery Shevchenko';
+  p3.style.visibility = 'hidden';
+  p3.style.height = "0";
+  p3.style.width = "0";
+
   div.appendChild(p1);
   div.appendChild(p2);
+  div.appendChild(p3);
   li.appendChild(div);
   ul.insertBefore(li, ul.firstChild);
 
